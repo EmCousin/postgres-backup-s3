@@ -5,7 +5,7 @@ set -o pipefail
 
 apk update
 
-# install pg_dump
+# install pg_dump (postgresql17)
 apk add postgresql17-client
 
 # install gpg
